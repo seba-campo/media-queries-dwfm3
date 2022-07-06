@@ -99,6 +99,33 @@ body{
     }
 }
 
+.body-container{
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .body-container{
+        display: block;
+        width:100%;
+        height: 100%;
+        
+    }
+}
+
+@media (min-width: 769px) {
+    .green-box-container{
+        height: 100%;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 21px;
+        vertical-align: center;
+        margin: 20px 0px 20px 0px
+    }
+    
+}
+
 .green-box{
     width: 326px;
     height: 147px;
